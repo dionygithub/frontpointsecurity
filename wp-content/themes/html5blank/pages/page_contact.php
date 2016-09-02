@@ -5,65 +5,55 @@ Template Name: Contact
 get_header();
 ?>
 <section class="body-container pa_body">
-  <div class="component cn_hero hero-base-structure cv_image_left cc_paragraph cp_3" id="pageholder_0_body_0_ComponentContainer">
-	<section>
-		<div class="center-container">
-			<div class="img-block">
-				<img width="570" height="570" alt="Contact Us" src="<?php echo get_template_directory_uri(); ?>/img/hero_contact_us.png?h=570&amp;la=en&amp;w=570" class="loaded">
-			</div>
-			<div class="copy-btn-block">
-				<div class="vertical-center-parent" style="height: 584px;">
-					<div class="vertical-center-container">
-						<h1>Here’s Who <em>To</em> Call</h1>
-						<div class="paragraph-button-block">
-							<p>Have a question? Need to set up your system? Give us a call. We know our stuff and are pretty friendly, too.</p>		
-						</div>
-						<div class="sub-heading-block">
-							<h3></h3><h3><br></h3>
-						</div>
-						<div class="sub-heading-link-block">
-							<p>Already an affiliate?&nbsp;
-								<a class="ao_text_link trackable">
-									Access our Affiliate Portal.
-							     </a>
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Video Modal should be included in each component that contains a button with the class of .video -->
-		<div class="modal-container video-modal" id="cn_hero_video">
-			<a data-uv_override="x" class="close-btn trackable ao_close_button" href="#"><span class="icon icon-close-btn-x"></span></a>
-			<div class="center-container">
-				<div class="vertical-center-parent" style="height: 440px;">
-					<div class="vertical-center-container">
-						<div class="video-block">
-							<div class="video-container">
-								<!-- Start of Brightcove Player -->
-								<div style="display: none"></div>
-								<div class="mf-player-container" id="pageholder_0_body_0_ctl00_PlayerContainer"><div class="mf-default-view"><p>Media item are not selected.</p></div></div>
-							</div>
-						</div>
-						<div class="copy-block">
-							<h5>
-								Insert heading here...
-							</h5>
-							<h3>
-								Insert subhead here...
-							</h3>
-							<span class="or">or</span>
-							<a class="btn primary ao_click_button trackable">
-								<span class="arrow right"></span>
-								Insert link text here...
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-</div>
+    <div class="component cn_hero hero-base-structure cv_image_left cc_paragraph cp_3" id="pageholder_0_body_0_ComponentContainer">
+    	<section>
+      		<div class="center-container">
+        			<div class="img-block">
+        				  <img width="570" height="570" alt="Contact Us" src="<?php echo get_template_directory_uri(); ?>/img/hero_contact_us.png?h=570&amp;la=en&amp;w=570" class="loaded">
+        			</div>
+        			<div class="copy-btn-block">
+          				<div class="vertical-center-parent" style="height: 584px;">
+                    <div class="vertical-center-container">
+                        <h1>Here's Who <em>To</em> Call</h1>
+                        <div class="paragraph-button-block">
+                            <p>Have a question? Need to set up your system? Give us a call. We know our stuff and are pretty friendly, too.</p>		
+                        </div>
+                    </div>
+            				</div>
+        			</div>
+      		</div>
+    		<!-- Video Modal should be included in each component that contains a button with the class of .video -->
+    		<div class="modal-container video-modal" id="cn_hero_video">
+    			<a data-uv_override="x" class="close-btn trackable ao_close_button" href="#"><span class="icon icon-close-btn-x"></span></a>
+    			<div class="center-container">
+    				<div class="vertical-center-parent" style="height: 440px;">
+    					<div class="vertical-center-container">
+    						<div class="video-block">
+    							<div class="video-container">
+    								<!-- Start of Brightcove Player -->
+    								<div style="display: none"></div>
+    								<div class="mf-player-container" id="pageholder_0_body_0_ctl00_PlayerContainer"><div class="mf-default-view"><p>Media item are not selected.</p></div></div>
+    							</div>
+    						</div>
+    						<div class="copy-block">
+    							<h5>
+    								Insert heading here...
+    							</h5>
+    							<h3>
+    								Insert subhead here...
+    							</h3>
+    							<span class="or">or</span>
+    							<a class="btn primary ao_click_button trackable">
+    								<span class="arrow right"></span>
+    								Insert link text here...
+    							</a>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</section>
+    </div>
 
 <div class="component cn_contact_us cp_4">
     <section id="schema-contact">
