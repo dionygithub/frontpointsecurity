@@ -40,16 +40,16 @@
 					</nav>
 					<div class="flags">
 	                <?php if ($_SESSION["current_lang"] == "en") { ?>
-	                    <img onclick="selectIdio(this, 'en')" class="Iactive" alt="EN" width="23" height="15" src="<?php echo get_template_directory_uri(); ?>/img/icons/en.png" />
+	                    <img id="en" onclick="selectIdio(this, 'en')" class="Iactive" alt="EN" width="30" src="<?php echo get_template_directory_uri(); ?>/img/icons/en.png" />
 	                    <br/>
 	                <?php }else{ ?>
-	                    <img onclick="selectIdio(this, 'en')" alt="EN" width="23" height="15" src="<?php echo get_template_directory_uri(); ?>/img/icons/en.png" />
+	                    <img ind="en" onclick="selectIdio(this, 'en')" alt="EN" width="30" src="<?php echo get_template_directory_uri(); ?>/img/icons/en.png" />
 	                    <br/>
 	                <?php }
 	                    if ($_SESSION["current_lang"] == "de") { ?>
-	                    <img onclick="selectIdio(this, 'de')" class="Iactive" alt="DE" width="23" height="15" src="<?php echo get_template_directory_uri(); ?>/img/icons/de.png" />
+	                    <img ind="de" onclick="selectIdio(this, 'de')" class="Iactive" alt="DE" width="30" src="<?php echo get_template_directory_uri(); ?>/img/icons/de.png" />
 	                <?php }else{ ?>
-	                    <img onclick="selectIdio(this, 'de')" alt="DE" width="23" height="15" src="<?php echo get_template_directory_uri(); ?>/img/icons/de.png" />
+	                    <img ind="de" onclick="selectIdio(this, 'de')" alt="DE" width="30" src="<?php echo get_template_directory_uri(); ?>/img/icons/de.png" />
 	                <?php } ?>
 	                </div>
 				</div>
