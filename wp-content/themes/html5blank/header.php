@@ -74,4 +74,5 @@
 			        </div>
 			    </aside>
 			</div>
+			<input id="langurl" type="hidden" value="<?php echo get_template_directory_uri(); ?>/tlang.php">
 			</header>
