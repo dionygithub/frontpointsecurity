@@ -1,5 +1,6 @@
+<?php session_start(); ?>
 <!doctype html>
-<html <?php echo language_attributes(); ?>>
+<html <?php language_attributes(); ?>>
 	<head>
 		<meta charset="<?php bloginfo('charset'); ?>">
 		<title><?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' :'; } ?> <?php bloginfo('name'); ?></title>
@@ -37,6 +38,20 @@
 							</div>
 						</div>
 					</nav>
+					<div class="flags">
+	                <?php if ($_SESSION["current_lang"] == "en") { ?>
+	                    <img onclick="selectIdio(this, 'en')" class="Iactive" alt="EN" width="23" height="15" src="<?php echo get_template_directory_uri(); ?>/img/icons/en.png" />
+	                    <br/>
+	                <?php }else{ ?>
+	                    <img onclick="selectIdio(this, 'en')" alt="EN" width="23" height="15" src="<?php echo get_template_directory_uri(); ?>/img/icons/en.png" />
+	                    <br/>
+	                <?php }
+	                    if ($_SESSION["current_lang"] == "de") { ?>
+	                    <img onclick="selectIdio(this, 'de')" class="Iactive" alt="DE" width="23" height="15" src="<?php echo get_template_directory_uri(); ?>/img/icons/de.png" />
+	                <?php }else{ ?>
+	                    <img onclick="selectIdio(this, 'de')" alt="DE" width="23" height="15" src="<?php echo get_template_directory_uri(); ?>/img/icons/de.png" />
+	                <?php } ?>
+	                </div>
 				</div>
 			</div>
 			<div data-should-insert-height-spanner="false" data-top-offset-target="#cn_global_header_navigation" class="component cn_global_call_to_action scroll-fixed scroll-fixed-lg  cp_2 fixed" id="ctl05_header_1_divComponentContainer">
@@ -59,9 +74,4 @@
 			        </div>
 			    </aside>
 			</div>
-			<script>
-			    function validateGlobalCTA() {
-			        return fp_base.validateFormForSubmit($('#btnGetAQuote'));
-			    }
-			</script>
 			</header>
