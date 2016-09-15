@@ -65,3 +65,4 @@
 			    </aside>
 			</div>
 			</header>
+			<input type="hidden" id="urlsrc" value="<?php echo get_template_directory_uri(); ?>">
